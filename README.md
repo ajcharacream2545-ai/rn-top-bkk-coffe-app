@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# rn-top-bkk-coffee-app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+แอปพลิเคชันแนะนำร้านกาแฟยอดนิยมในกรุงเทพฯ (Top Bangkok Coffee) พัฒนาด้วย **React Native (Expo)** ร่วมกับ **Supabase** ในการจัดการฐานข้อมูลและการดึงข้อมูลแบบ Real-time บันทึกข้อมูลพิกัด เบอร์โทรศัพท์ และรูปภาพร้านคาแฟ่อย่างครบถ้วน
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Screenshots (หน้าจอการทำงานของแอปพลิเคชัน)
 
-   ```bash
-   npm install
-   ```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/166d8aa4-08be-416b-b519-b1858d029142" width="260" alt="Splash Screen"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/1447b17b-27b1-4021-91f1-3cc2ddf8bdf4" width="260" alt="Home Screen"/>
+</p>
 
-2. Start the app
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b0cbaf68-5361-41fb-b678-0ae5790f2e3a" width="260" alt="Detail Screen 1"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/359ebb9a-da86-4617-8c8d-9ec8bc892658" width="260" alt="Detail Screen 2"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/0c944797-f46d-4f23-9404-d852e18b11ab" width="260" alt="Map Screen"/>
+</p>
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✨ Features (คุณสมบัติเด่นของแอปพลิเคชัน)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **Splash Screen:** หน้าต้อนรับเข้าสู่แอปพลิเคชันพร้อมอนิเมชัน Loading สวยงามก่อนเข้าสู่หน้าหลัก
+* **Coffee Shop Directory:** ดึงข้อมูลรายชื่อร้านกาแฟชั้นนำ 10 ร้านจาก Supabase Database มาแสดงผลอัตโนมัติพร้อมระบบจัดเรียงตามชื่อร้าน
+* **Detailed Information:** แสดงรายละเอียดเชิงลึกของแต่ละคาเฟ่ เช่น เขตพื้นที่, รีวิวอธิบายร้าน, และเบอร์โทรศัพท์ที่สามารถกดดูได้
+* **Interactive Map Integration:** มีระบบปักหมุดตำแหน่ง (Marker) บนแผนที่ด้วยค่า Latitude และ Longitude จริง เพื่อนำทางไปยังร้านกาแฟได้อย่างแม่นยำ
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tech Stack & Tools (เครื่องมือที่ใช้ในการพัฒนา)
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* **Frontend:** React Native, TypeScript, Expo Router
+* **Backend & Database:** Supabase (PostgreSQL)
+* **Icon Library:** Expo Vector Icons (Ionicons)
+* **Design & Layout:** StyleSheet (Flexbox)
